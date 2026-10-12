@@ -5,7 +5,7 @@ Test cases can be run with the following:
   nosetests -v --with-spec --spec-color
   coverage report -m
 """
-imimport os
+import os
 import logging
 from unittest import TestCase
 from tests.factories import AccountFactory
