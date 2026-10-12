@@ -8,7 +8,7 @@ import logging
 import sys
 from flask import Flask
 from flask_talisman import Talisman
-from flask_cors import CORSS
+from flask_cors import CORS
 
 # Create Flask application
 app = Flask(__name__)
